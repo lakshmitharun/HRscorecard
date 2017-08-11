@@ -1,0 +1,218 @@
+#This yaml file is store the layout of the ADP HR score Validation Excel Layout  
+adpscorecard: 
+  tabs: 
+    - 
+      cells: 
+        - 
+          dataType: Integer
+          name: "S No."
+          validation: true
+        - 
+          dataType: Integer
+          name: "Associate ID"
+          validation: true
+        - 
+          dataType: String
+          name: "Associate Type"
+          validation: true
+        - 
+          dataType: String
+          name: Gender
+          validation: true
+          values: "Male,Female"
+        - 
+          dataType: String
+          name: "First Name"
+          validation: true
+        - 
+          dataType: String
+          name: "Last Name"
+          validation: true
+        - 
+          dataType: String
+          name: Title/Designation
+          validation: true
+        - 
+          dataType: String
+          name: Grade
+          validation: true
+        - 
+          dataType: String
+          name: Level
+          validation: true
+        - 
+          dataType: Date
+          name: "Last Promotion Date"
+          validation: true
+        - 
+          dataType: Date
+          name: "Date of Joining/Start Date"
+          validation: true
+        - 
+          dataType: Date
+          name: "Date of Birth"
+          validation: true
+        - 
+          dataType: String
+          name: "Last Standard Degree"
+          validation: true
+        - 
+          dataType: String
+          name: "Associate Current Location"
+          validation: true
+        - 
+          dataType: String
+          name: Facility
+          validation: true
+        - 
+          dataType: String
+          name: "Business Unit"
+          validation: true
+          values: "GPT,GPT-NAS,Service Delivery,MNC Solutions,Enterprise wide Functions - HR,FinanceCoE,Finance,GSO,GETS,ServiceEnablement,Business Solutions"
+        - 
+          dataType: String
+          name: "Project Group"
+          validation: true
+          values: "Global HR,Global Legal,Global Finance,Global Strategy,Global Business Transform,GPT,GES,Sales,SBS-HRO,MAS-CAN,Added Value Services"
+        - 
+          dataType: String
+          name: Project
+          validation: true
+        - 
+          dataType: String
+          name: "GTE Tagging"
+          validation: true
+        - 
+          dataType: String
+          name: "Rate Type"
+          validation: true
+        - 
+          dataType: String
+          name: Skillset
+          validation: true
+        - 
+          dataType: String
+          name: Technology/Services
+          validation: true
+          values: "Technology,Services"
+        - 
+          dataType: String
+          name: Shift
+          validation: true
+        - 
+          dataType: String
+          name: "Business Head"
+          validation: true
+        - 
+          dataType: String
+          name: "Business Group Manager"
+          validation: true
+        - 
+          dataType: String
+          name: "Business HR"
+          validation: true
+        - 
+          dataType: Date 
+          name: CreatedDate
+          validation: true
+      name: HeadCount
+    - 
+      cells: 
+        - 
+          dataType: Integer
+          name: "S No."
+          validation: true
+        - 
+          dataType: Integer
+          name: "Associate ID"
+          validation: true
+        - 
+          dataType: String
+          name: "Associate Type"
+          validation: true
+        - 
+          dataType: String
+          name: Status
+          validation: true
+        -         
+          dataType: String
+          name: Candidate Name
+          validation: true
+        - 
+          dataType: String
+          name: Gender
+          validation: true
+          values: "Male,Female"
+        - 
+          dataType: String
+          name: Grade
+          validation: true
+        - 
+          dataType: String
+          name: Level
+          validation: true
+        - 
+          dataType: String
+          name: "Business Unit"
+          validation: true
+          values: "GPT,GPT-NAS,Service Delivery,MNC Solutions,Enterprise wide Functions - HR,FinanceCoE,Finance,GSO,GETS,ServiceEnablement,Business Solutions"
+        - 
+          dataType: String
+          name: "Project Group"
+          validation: true
+          values: "Global HR,Global Legal,Global Finance,Global Strategy,Global Business Transform,GPT,GES,Sales,SBS-HRO,MAS-CAN,Added Value Services"
+        - 
+          dataType: String
+          name: Project
+          validation: true
+        - 
+          dataType: String
+          name: "Candidate Offered Location"
+          validation: true
+        - 
+          dataType: String
+          name: "Rate Type"
+          validation: true
+        - 
+          dataType: Integer
+          name: "Relevant Work Experience"
+          validation: true
+        - 
+          dataType: Date
+          name: "Date Of Requisition"
+          validation: true
+        - 
+          dataType: Date
+          name: "Date of Offer"
+          validation: true
+        - 
+          dataType: Date
+          name: "Date of Joining/Start Date"
+          validation: true
+        - 
+          dataType: String
+          name: "Source Name"
+          validation: true
+        - 
+          dataType: String
+          name: "Source Type"
+          validation: true
+        - 
+          dataType: Integer
+          name: "Recruiter Id"
+          validation: true
+        - 
+          dataType: String
+          name: "Recruiter Name"
+          validation: true
+          values: "Technology,Services"
+        - 
+          dataType: String
+          name: "Group Manager"
+          validation: true
+        - 
+          dataType: String
+          name: "BU Head"
+          validation: true
+      datarow: 1
+      name: Joiners
